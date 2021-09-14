@@ -6,11 +6,9 @@ For that, you will create your own API. This API will be able to receive informa
 In this project, you will practice:
 
 - Flask (API creation)
-- SQL
-- MongoDB 
+- SQL 
 - NLTK (sentiment analysis)
 
-*You can create your API with SQL or with Mongodb. Feel free to choose the one you want.*
 
 ## Project Goals
 
@@ -21,7 +19,7 @@ In this project, you will practice:
 Remember, YOU (your API) are the server, and clients send GET or POST requests to you.
 
 - (L0🤔) Design the **structure** of your own database depending on the type of info you want to store.
-- (L1🧐) Write an API using flask to receive chat messages and **store** them in a database like mongodb or mysql.
+- (L1🧐) Write an API using flask to receive chat messages and **store** them in a database (mysql).
 - (L2🥳) **Read** and serve data from the chats database using different endpoints.
 - (L3🤭) Extract the **emotional value** of messages per user/chats and make it _queryable_ through an endpoit.
 - (L4🔥) Do it real, use slack API to get messages and analyze the messages of our `data-bootcamp` channel.
